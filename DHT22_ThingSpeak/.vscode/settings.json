@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/dimple/.platformio/penv/bin:/home/dimple/.platformio/penv:/home/dimple/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/java/jdk1.8.0_74/bin:/usr/local/java/jdk1.8.0_74/jre/bin:/home/dimple/Downloads/Softwares/Android/androidsdk/sdk/tools:/home/dimple/Downloads/Softwares/Android/androidsdk/sdk/platform-tools",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
