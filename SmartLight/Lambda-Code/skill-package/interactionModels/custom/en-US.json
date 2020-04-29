@@ -1,0 +1,70 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "magic man",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "toggleintent",
+                    "slots": [
+                        {
+                            "name": "toggleslot",
+                            "type": "onoff"
+                        }
+                    ],
+                    "samples": [
+                        "please switch the light {toggleslot}",
+                        "please switch {toggleslot} the light",
+                        "please turn the light {toggleslot}",
+                        "please turn {toggleslot} the light",
+                        "switch the light {toggleslot}",
+                        "switch {toggleslot} the light",
+                        "turn the light {toggleslot}",
+                        "turn {toggleslot} the light"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "onoff",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "off"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "on"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

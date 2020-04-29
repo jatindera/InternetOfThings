@@ -1,0 +1,28 @@
+{
+  "askcliStatesVersion": "2020-03-31",
+  "profiles": {
+    "default": {
+      "skillInfrastructure": {
+        "@ask-cli/lambda-deployer": {
+          "deployState": {
+            "default": {
+              "iamRole": "arn:aws:iam::621865232268:role/ask-lambda-smartlighttutorial-1587982520069",
+              "lambda": {
+                "arn": "arn:aws:lambda:us-east-1:621865232268:function:ask-smartlighttutorial-default-default-1587982522745",
+                "lastModified": "2020-04-27T16:46:59.481+0000",
+                "revisionId": "6b79200f-9635-4123-8e46-b0238e314039"
+              }
+            }
+          }
+        }
+      },
+      "skillId": "amzn1.ask.skill.90efc8bf-fbc0-4855-a1bc-6cda2e926663",
+      "skillMetadata": {
+        "lastDeployHash": "+Y0ZPhMfel1O5hVdmvL9nOuXLes="
+      },
+      "code": {
+        "default": {}
+      }
+    }
+  }
+}
