@@ -1,0 +1,75 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "smart car",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "MoveIntent",
+                    "slots": [{
+                        "name": "command",
+                        "type": "Command"
+                    }],
+                    "samples": [
+                        "please move {command}",
+                        "move {command}",
+                        "please go {command}",
+                        "go {command}",
+                        "please take {command}",
+                        "take {command}"
+                    ]
+                },
+                {
+                    "name": "PauseIntent",
+                    "samples": [
+                        "please pause",
+                        "pause",
+                        "please halt",
+                        "halt"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [{
+                "name": "Command",
+                "values": [
+                    {
+                        "name": {
+                            "value": "forward"
+                        }
+                    },
+                    {
+                        "name": {
+                            "value": "back"
+                        }
+                    },
+                    {
+                        "name": {
+                            "value": "left"
+                        }
+                    },
+                    {
+                        "name": {
+                            "value": "right"
+                        }
+                    }
+                ]
+            }]
+        }
+    }
+  }
+  
